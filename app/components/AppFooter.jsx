@@ -20,10 +20,10 @@ export default function AppFooter() {
 
         {/* Links */}
         <Group gap="md" justify="center" mb="md">
-          <Anchor href="https://github.com/LOLinDark/StarCitizen-OmniCore" target="_blank" rel="noopener noreferrer" size="xs" style={{ color: '#00d9ff' }}>
+          <Anchor href="https://github.com/FifeCIC/StarCitizen-OmniCore" target="_blank" rel="noopener noreferrer" size="xs" style={{ color: '#00d9ff' }}>
             GitHub
           </Anchor>
-          <Anchor href="https://github.com/LOLinDark/StarCitizen-OmniCore/issues" target="_blank" rel="noopener noreferrer" size="xs" style={{ color: '#00d9ff' }}>
+          <Anchor href="https://github.com/FifeCIC/StarCitizen-OmniCore/issues" target="_blank" rel="noopener noreferrer" size="xs" style={{ color: '#00d9ff' }}>
             Report a Bug
           </Anchor>
           <Anchor href="https://robertsspaceindustries.com/citizens/LOLinDark" target="_blank" rel="noopener noreferrer" size="xs" style={{ color: '#00d9ff' }}>

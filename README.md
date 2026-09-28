@@ -32,6 +32,28 @@ We've moved beyond prototype — OmniCore is a working companion hub with real u
 
 ---
 
+## Built for Star Citizen — not limited to it
+
+OmniCore's peripheral layer is **not Star Citizen-specific**. It reads and writes bindings through an XML profile, and the parts that do the real work — device-aware upsert so one device's binding cannot clobber another's, duplicate-binding conflict detection, and live Gamepad API input capture — are generic to any title that lets you bind a HOTAS, yoke or pedal set.
+
+Today the app ships Star Citizen profiles, ship data and in-game tooling. The configuration engine underneath does not care which sim it is talking to.
+
+**Want it for another sim?** Say which sim and which hardware. Interest is what decides what gets built next — open a discussion or an issue and tell us what you fly.
+
+| Candidate | Why it fits |
+|---|---|
+| **Star Citizen / Squadron 42** | Supported today |
+| **DCS World** | Deep, hand-edited binding files — the pain is well documented |
+| **Elite Dangerous** | Large HOTAS community; bindings are plain, editable files |
+| **Microsoft Flight Simulator** | Huge peripheral ecosystem and complex control profiles |
+| **X-Plane** | Established community of custom binding setups |
+| **IL-2 Sturmovik** | Enthusiast sim crowd, heavy HOTAS use |
+| **Anything else with editable bindings** | If the sim exposes its bindings, the engine has something to work with |
+
+Supporting a second sim is a real piece of work — it needs a profile-format adapter and a per-sim data set, not a config flag. The table above is a shortlist of what would make sense, not a roadmap promise.
+
+---
+
 ## For Players
 
 ### What's Inside
@@ -54,8 +76,9 @@ OmniCore runs in your browser and installs as a PWA. No account required for mos
 
 ### Hosted Access
 
-- **Live site**: [lolindark.github.io/StarCitizen-OmniCore](https://lolindark.github.io/StarCitizen-OmniCore/)
-- **Domain target**: `omnicore.space` *(future)*
+- **App (live)**: [fifecic.github.io/StarCitizen-OmniCore](https://fifecic.github.io/StarCitizen-OmniCore/)
+- **Website & guides**: [fifecic.github.io/OmniCore-Site](https://fifecic.github.io/OmniCore-Site/)
+- **Source**: [github.com/FifeCIC/StarCitizen-OmniCore](https://github.com/FifeCIC/StarCitizen-OmniCore)
 
 ---
 

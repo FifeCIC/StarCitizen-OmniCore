@@ -21,7 +21,7 @@ import { createLogger } from '../../lib/logger.js';
 
 const logger = createLogger('api.versemail');
 
-const GITHUB_REPO   = 'LOLinDark/StarCitizen-OmniCore';
+const GITHUB_REPO   = 'FifeCIC/StarCitizen-OmniCore';
 const CONTACT_EMAIL = process.env.CONTACT_EMAIL || 'omnicore@ryanbayne.uk';
 
 // Input length caps

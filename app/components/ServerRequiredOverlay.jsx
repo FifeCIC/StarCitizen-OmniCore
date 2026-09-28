@@ -52,12 +52,12 @@ export default function ServerRequiredOverlay({ featureName = 'This feature', re
           <Text size="xs" c="dimmed" style={{ lineHeight: 1.6 }}>
             1. Download the project from{' '}
             <Anchor
-              href="https://github.com/LOLinDark/StarCitizen-OmniCore"
+              href="https://github.com/FifeCIC/StarCitizen-OmniCore"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: '#00d9ff' }}
             >
-              github.com/LOLinDark/StarCitizen-OmniCore
+              github.com/FifeCIC/StarCitizen-OmniCore
             </Anchor>
             {' '}and follow the README setup guide.
           </Text>

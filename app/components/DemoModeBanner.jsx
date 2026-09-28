@@ -56,7 +56,7 @@ export default function DemoModeBanner() {
             <strong style={{ color: 'rgba(255,255,255,0.75)' }}>Want to run it fully?</strong>{' '}
             Download the project from{' '}
             <Anchor
-              href="https://github.com/LOLinDark/StarCitizen-OmniCore"
+              href="https://github.com/FifeCIC/StarCitizen-OmniCore"
               target="_blank"
               rel="noopener noreferrer"
               size="xs"

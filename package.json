@@ -2,6 +2,7 @@
   "name": "omni-core",
   "private": true,
   "version": "0.1.0",
+  "description": "OmniCore — Star Citizen companion PWA with a game-agnostic HOTAS/peripheral bindings editor, ship database and in-game tooling.",
   "type": "module",
   "scripts": {
     "dev": "vite",
